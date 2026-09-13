@@ -1,0 +1,136 @@
+[SOC-CMM Maturity]
+- SOC-CMM maturity describes how capable and well developed SOC team is, rather than evaluating them with a single
+  word like "good" or "bad."
+
+- SOC-CMM defines maturity as a way to "characterize SOC performance."
+  - This means we can assess how well an organization performs its activities and how consistently and systematically
+    it does them.
+  
+- To describe maturity, SOC uses 6 levels:
+  - 0 (non-existent):                 The capability essentially does not exist.
+  - 1 (Initial):                      Activities happen, but they're mostly ad-hoc or dependent on the individual.
+  - 2 (Managed):                      Activities are planned and managed to some extent.
+  - 3 (Defined):                      Processes are documented, standardized, and consistently implemented.
+  - 4 (Quantitatively Managed):       Performance is measured using quantitative data and controlled using those measurements.
+  - 5 (Optimizing):                   The SOC continuously improves its capabilities based on measurement, lessons leared, and changing requirements.
+
+- The SOC maturity is quantified based on 5 domains:
+  - Business:            Governance, strategy, organizational alignment, funding, etc.
+  - People:              Staffing, skills, training, roles, responsibilities, etc.
+  - Process:             Procedures, workflows, incident handling, monitoring processes, etc.
+  - Technology:          Tools, infrastructure, automation, detection capabilities, SIEM, etc.
+  - Services:            The security services the SOC provides and how effectively they are delivered.
+- Hence, the quantitative value (0 - 5 scale) of SOC maturity is based on these 5 domains.
+
+- Every element under the 5 domains adds individually to the SOC maturity score.
+  - Each domain will get a 0 - 5 scale, then combining those individual contributions into an overall
+    maturity score, without requiring the SOC to satisfy every requirement of a lower level before 
+    receiving credit for higher-level capabilities.
+
+- Summary:
+  The SOC-CMM implementation measures how mature a SOC is by independently assessing capabilities across business, people, process,
+technology, and services on a 0 - 5 scale, then combining those individual contributions into an overall maturity score, without
+requiring the SOC to satisfy every requirement of a lower level before receiving credit for higher-level capabilities.
+
+[SOC-CMM Capability]
+- This is related to the maturity model, but measures something slightly different.
+  - Capability asks: "Can the SOC do this, and how completely?"
+  - Maturity asks: "How maturely and systematically does the SOC operate?"
+- Capability supports maturity. It is focused on the specific function.
+  - "Can the kitchen prepare sushi? It is performed, manged, and standardized?"
+  - Only evaluates two domains: Technology and Services
+- Maturity is focused on the overall quality and sophistication of the SOC's operation.
+  - "How professionally does the entire restaurant operate-staffing, processes, management,
+    technology, services, measurement, and continuous improvement?"
+  - Evaluates five domains. Hence, Capability is a subset of Maturity.
+
+- Capability describes whether a particular function or technical activity exists and how complely it is 
+  implemented.
+  - For example, suppose a SOC has a capability called "malware detection."
+    - Does malware detection exist at all?
+    - Is it actually being performed?
+    - Is it managed consistently?
+    - Is it formally defined and standardized?
+    - etc.
+  - So capability is about completeness and the implementation of a specific function.
+    - In other words, capabilities tell you how much of a particular SOC function has been implemented.
+
+- Four capability levels:
+  - 0 (Incompletely):        Capability is absent or only partially implemented.
+  - 1 (Performed):           The capability is actually carried out.
+  - 2 (Managed):             The capability is planned, monitored, controlled, or managed.
+  - 3 (Defined):             The capability is formally documented, standardized, and established as part of the SOC's way of working.
+
+[SOC-CMM Certification Levels]
+- First Level: "Defined"
+  - This level of certification is attainable for security operations centers that have developed their SOC on maturity level 3 for all domains.
+  - The defined certification level represents a SOC that has implemented a standardized, reliable, and repeatable way of working.
+
+- Second Level: "Validated"
+  - This level of certification is attainable for security operations centers that have developed their SOC on maturity level 4 for all domains.
+  - This includes the First Level.
+  - This represents a SOC that has services that are measured, quality controlled, guaranteed continuity, and detection rules that have been
+    validated for correctness under different circumstances.
+
+- Third Level: "Risk Driven"
+  - This level of certification is attainable for security operations centers that have developed their SOC on maturity level 5 for all domains.
+  - This represents a SOC that has services that are measured, quality controlled, guaranteed continuity, and detection rules that have been
+    validated for correctness under different circumstances.
+  - In addition, controls are in place that ensure that the SOC is capable of aligning with risks and integrating threat intelligence into service
+    delivery.
+  - Requires everything from Level Two, plus advanced controls showing that Cyber Threat Intelligence (CTI) and organizational risk directly drive your
+    day-to-day SOC decisions.
+
+- Summary:
+  - "Defined":       Represents a SOC that has a standardized, reliable, and repeatable way of working.
+  - "Validated":     Adds measured services, quality control, continuity, and validated detection capabilities.
+  - "Risk-Driven":   Goes further by aligning services with organizational risk and threat intelligence.
+
+[How Does SOC-CMM Help Improve SOC]
+- SOC-CMM helps you improve the SOC operations, whereas SOC-CMM certificate helps you demonstrate that level of capability/maturity to other people.
+
+- How SOC-CMM benefits the company:
+  - Identify gaps:                      Shows where the SOC is weak or incomplete across business, people, process, technology, and services.
+  - Understand the Current State:       The maturity and capability scores provide a measurable picture of where the SOC stands today.
+  - Prioritize Improvements:            The company can identify which areas need attention instead of trying to improve everything at once.
+  - Guide Investments:                  It helps management decide where resources should go. For example, hiring/training people, improving processes, or investing in technology.
+  - Measure Progress:                   The company can reassess the SOC later and determine whether its improvement initiatives actually increased its capability and maturity
+  - etc.
+
+- How does the certificate benefit the company?
+  - Competitive Advantage:                 A certificate provides external evidence that a SOC has been assessed against a recognized framework by an authorized auditor. This gives
+                                           customers and partners more confidence in the SOC's capabilities.
+  - Benchmarking against other SOCs:       A standardized assessment provides a basis for communicating the SOC's maturity and capabilities. This is particularly useful when
+                                           management wants an independent assessment rather than an internal claim.
+  - Customer Assurance:                    Customers may want evidence that the security operations protecting their data or systems are properly established. Certification
+                                           can serve as an additional assurance mechanism.
+
+[Differentiate between technology/services on Maturity vs Capability]
+- SOC-CMM has five domains: Business, People, Process, Technology, and Services. Maturity is assessed across all five, while Technology and Services are additionally assessed
+  for capability.
+
+- Maturity is about how well the SOC has established and manages something.
+  - SOC-CMM's maturity progression goes from Non-existent → Initial → Managed → Defined → Quantitatively Managed → Optimizing
+    - In broad terms, you move from something being absent or ad hoc, toward something that is standardized, measured, and continuously improved.
+  - A low-maturity SOC might have:
+    - "Our analysts monitor Sentinel and investigate alerts."
+    - But perhaps there is no formally documented monitoring process, inconsistent procedures, little measurement, and heavy dependence on individual analysts.
+  - A more mature SOC might have:
+    - documented monitoring procedures → standardized analyst workflows → defined responsibilities → performance metrics → quality measurement → continual improvement.
+
+- Capability is more about the extent and completeness of the technical/service ability itself.
+  - SOC-CMM describes capability as assessing technical features or service artifacts, with four capability levels: Incomplete, Performed, Managed, and Defined
+
+- Technology
+  — Capability
+    - Sentinel/XDR environment can collect endpoint telemetry, correlate events, detect suspicious authentication, investigate incidents, and perform certain automated actions.
+    - That's what the technology is capable of doing.
+  - Maturity
+    - Asks the questions:
+      - Is this technology formally managed? 
+      - Is its architecture documented?
+      - Are responsibilities defined?
+      - Is availability maintained?
+      - Is it regularly evaluated and improved?
+    - That's how mature the SOC's management of that technology is. 
+  - The technology may have advanced capabilities, while the processes and practices surrounding its use remain relatively immature.

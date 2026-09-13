@@ -1,0 +1,53 @@
+[High-Level Scope]
+- The assessment covers the entire 24/7 SOC function, including all SOC teams/locations responsible for continuous security monitoring and alert triage for customer tenants.
+- The SOC operates as an MSSP and uses proprietary software integrated via API calls to Microsoft Sentinel and XDR platforms to collect and manage incidents across customer
+environments.
+- The scope includes SOC analyst alert triage, investigation and analysis activities, and the use of Sentinel and XDR platforms for deeper investigation of security incidents.
+
+[Comment on the High-Level Scope]
+- That's a good starting point. But "SOC" can mean much more than simply people looking at alerts.
+  - The question was trying to establish whether your SOC is responsible for any of these additional functions.
+
+[Business Size (FTE)]
+- Business size measured in Full-Time Equivalent (FTE) is a metric that standardizes a company's total workforce size by converting all employee work hours into the equivalent number of full-time workers
+
+- FTE = Full-Time Equivalent.
+
+- FTE = Total hours worked by employee / standard full time hours
+  - For example:
+    - The standard full-time schedule is 40 hours/week
+    - 10 employees working 40 hours/week → 400 hours
+    - 4 employees working 20 hours/week → 80 hours
+    - Then, FTE = (400 + 80) / 40 = 480 / 40 = 12 FTE
+    - This means, those 14 people represent 12 full-time equivalents.
+
+- [ ] Question the company:
+  - Could you please provide the organization's total number of Full-Time Equivalent (FTE) employees for the SOC-CMM profile?
+
+[Number of years of SOC operations]
+- [ ] Question the company:
+  - How long the SOC has been operating as a SOC?
+
+[SOC Size (FTE)]
+- SOC Size (FTEs) works exactly the same way as Business Size (FTE), except that you are counting the workforce dedicated to the SOC, not the entire company.
+
+- [ ] Question the company:
+  - Could you please provide the organization's total number of Full-Time Equivalent (FTE) SOC employees for the SOC-CMM profile?
+
+[Business Scope]
+1. Log Monitoring
+- Log monitoring is used to gather logging, telemetry, and other relevant security data from company assets and centralise this information for alerting and analysis purposes
+- The SOC collects security-related information from the systems it is responsible for, puts that information in a central place, and uses it to detect and investigate security problems.
+
+- My answer:
+  - Yes, Log Monitoring is within the scope of the assessment because the SOC collects, centralizes, and monitors security logs and telemetry from customer environments
+    through Microsoft Sentinel, XDR platforms, and other integrated security and infrastructure sources. These sources may include endpoint telemetry from XDR, FortiGate
+    firewall logs, on-prem AD, Microsoft Entra ID authentication and identity activity, Azure activity and security logs, and other relevant data sources. The collected information
+    is used by SOC analysts for security alerting, investigation, analysis, and incident triage.
+
+- What to ask to company:
+  - Could you please clarify which types of security logs and telemetry are currently monitored by the SOC across customer environments?
+  - For example, does the SOC monitor telemetry from sources such as Microsoft Sentinel, XDR/EDR platforms, FortiGate firewalls,
+    Microsoft Entra ID, Azure, Microsoft 365, servers, network devices, or other security and infrastructure platforms? It would also be helpful
+    to know whether these sources are consistently monitored across all customers or depend on each customer's environment and service scope.
+

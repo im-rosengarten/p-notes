@@ -1,3 +1,18 @@
+[Purpose in Doing Assessment]
+- To assess the current capability and maturity of the SOC using the SOC-CMM framework, identify gaps and areas for improvement, and evaluate the SOC readiness for future
+  SOC -CMM certification.
+
+SOC maturity is measured based on five SOC-CMM domains:
+- Business: Governance, strategy, organizational alignment, funding, etc.
+- People: Staffing, skills, training, roles, responsibilities, etc.
+- Process: Procedures, workflows, incident handling, monitoring processes, etc.
+- Technology: Tools, infrastructure, automation, detection, capabilities, etc.
+- Services: The security services the SOC provides and how effectively they are delivered.
+
+SOC capability is measured on two SOC-CMM domains:
+- Technology
+- Services
+
 [High-Level Scope]
 - The assessment covers the entire 24/7 SOC function, including all SOC teams/locations responsible for continuous security monitoring and alert triage for customer tenants.
 - The SOC operates as an MSSP and uses proprietary software integrated via API calls to Microsoft Sentinel and XDR platforms to collect and manage incidents across customer
@@ -50,4 +65,3 @@ environments.
   - For example, does the SOC monitor telemetry from sources such as Microsoft Sentinel, XDR/EDR platforms, FortiGate firewalls,
     Microsoft Entra ID, Azure, Microsoft 365, servers, network devices, or other security and infrastructure platforms? It would also be helpful
     to know whether these sources are consistently monitored across all customers or depend on each customer's environment and service scope.
-

@@ -1,0 +1,198 @@
+[Log Monitoring]
+- Log Monitoring is used to gather logging, telemetry, and other relevant security data from company assets and centralize this information for alerting and analysis process
+- Possible choices for "Answer:":
+  - No, Partially, Averagely, Mostly, Fully
+- Possible choices for "Importance:":
+  - None, Low, Normal, High, Critical
+
+- Maturity:
+{
+  - Accountability:
+  {
+    - Has functional ownership of the solution been formally assigned?
+    {
+      - Answer:       Averagely
+      - Importance:   High
+      - Rationale:    ?
+    }
+    
+    - Has technical ownership of the solution been formally assigned?
+    {
+      - Answer:       Averagely
+      - Importance:   High
+      - Rationale:    ?
+    {
+  }
+
+  - Documentation:
+  {
+    - Has the solution been technically documented?
+    {
+      - Answer:       Averagely
+      - Importance:   High
+      - Rationale:    ?
+    }
+
+    - Has the solutuion been functionally documented?
+    {
+      - Answer:       Averagely
+      - Importance:   High
+      - Rationale:    ?
+    }
+  }
+
+  - Personnel & Support:
+  {
+    - Is there dedicated personnel for support?
+    {
+      - Answer:       Partially
+      - Importance:   High
+      - Rationale:    ?
+    }
+
+    - Is the personnel for support formally trained?
+    {
+      - Answer:       Partially
+      - Importance:   High
+      - Rationale:    ?
+    }
+
+    - Is the personnel for support certified?
+    {
+      - Answer:       Mostly
+      - Importance:   High
+      - Rationale:    ?
+    }
+    
+    - Is there support contract for the solution?
+    {
+      - Answer:       Averagely
+      - Importance:   High
+      - Rationale:    ?
+    }
+  }
+
+  - Maintenance & Configuration:
+  {
+    - Is the system regularly maintained?
+    {
+      - Answer:       Mostly
+      - Importance:   High
+      - Rationale:    ?
+    }
+
+    - Is remote maintenance on the system managed?
+    {
+      - Answer:       Mostly
+      - Importance:   High
+      - Rationale:    ?
+    }
+
+    - Are maintenance & configuration updates executed through the change management process?
+    {
+      - Answer:       Mostly
+      - Importance:   High
+      - Rationale:    ?
+    }
+    
+    - Have you established maintenance and change windows?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is maintenance performed using authorized and trust tooling?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+  }
+
+  - Availability, integrity & continuity
+  {
+    - Is there high availability (HA) in place for the solution?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is there data backup / replication in place for the solution?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is there configuration backup / replication in place for the solution?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is there Disaster Recovery plan in place for this solution?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is the Disaster Recovery plan regularly tested?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is there a separate development / test environment for this solution?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+  }
+
+  - Access management
+  {
+    - Is the access to the solution limited to authorized personnel?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Are access rights regularly reviewed and revoked if required?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+
+    - Is a break glass procedure in place?
+    {
+      - Answer:       ?
+      - Importance:   ?
+      - Rationale:    ?
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

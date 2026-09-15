@@ -1,48 +1,53 @@
 [SOC-CMM Maturity]
-- SOC-CMM maturity describes how capable and well developed SOC team is, rather than evaluating them with a single
-  word like "good" or "bad."
+- SOC-CMM describes the maturity of a Security Operations Center using the Capability Maturity Model (CMM) approach. In this context, maturity
+refers to the degree to which an organization's processes are formalized, consistently practiced, measured, and continuously improved.
 
-- SOC-CMM defines maturity as a way to "characterize SOC performance."
-  - This means we can assess how well an organization performs its activities and how consistently and systematically
-    it does them.
+- A maturity model can therefore be understood as a structured set of levels that describes how reliably and sustainably an organization
+can use its behaviors, practices, and processes to achieve its intended outcomes. As maturity increases, an activity generally progresses
+from being informal and reactive to being standardized, measurable, and continuously optimized.
 
-- SOC-CMM describes maturity following the model called Capability Maturity Model (CMM)
-  - The term "maturity" relates to the degree of formality and optimization of processes, from ad hoc practices, to
-    formally defined steps, to managed result metrics, to active optimization of the processes.
-  - A maturity model can be viewed as a set of structured levels that describe how well the behaviors, practices and
-    processes of an organization can reliably and sustainably produce required outcomes.
+- The maturity model is particularly useful because it distinguishes between an organization that performs an activity and one that has
+established a reliable and sustainable process for performing it.
   
 - To describe maturity, SOC uses 6 levels:
-  - 0 (non-existent):                 The capability essentially does not exist.
+  - 0 (non-existent):
+    - At this level, the capability or process is essentially absent. There is little or no established activity addressing the area being assessed.
 
-  - 1 (Initial):                      Activities happen, but they're mostly ad-hoc or dependent on the individual.
-    - The starting point for use of a new or undocumented repeat process.
-    - Processes in this level are undocumented and are in a state of dynamic change, driven uncontrolled and reactive
-      manner by users or events. 
-    - This provides a chaotic or unstable environment for the processes.
+  - 1 (Initial):
+    - At the Initial level, activities are being performed, but they are primarily ad hoc, reactive, and dependent on individual people rather than
+      on an established organizational process.
+    - This is often the starting point for a new or undocumented process. Activities may change dynamically in response to users, incidents, or other
+      events, without consistent controls or documented procedures. As a result, the process environment may be chaotic or unstable, and successful
+      outcomes may depend heavily on the knowledge or judgment of particular individuals.
 
-  - 2 (Managed):                      The process is at least documented sufficiently such that repeating the same steps may be attempted.
-    - Activities are planned and managed to some extent.
-    - Process discipline is unlikely to be rigorous, but where it exists it may help to ensure that existing processes are maintained during times of stress.
+  - 2 (Managed):
+    - At the Managed level, the process has been established to the point that it is documented sufficiently for the same or similar steps to be repeated.
+    - Activities are planned and managed to some extent, although process discipline may still be inconsistent or limited. Where basic controls and procedures
+      exist, they can help maintain the process during normal operations and periods of stress. However, the organization may not yet have fully standardized
+      the process across all relevant situations.
     
-  - 3 (Defined):                      Processes are documented, standardized, and consistently implemented, as a standard business process.
-    - The process is defined/confirmed as a standard business process.
-    - It is characteristic of processes at this level that there are sets of defined and documented standard processes established and subject to
-      some degree of improvement over time. 
-    - The processes may not have been systematically or repeatedly used - sufficient for the users to become competent or the process to be validated in a range of situations.
-    - This could be considered a developmental stage - with use in a wider range of conditions and user competence development the process can develop to next level of maturity.
+  - 3 (Defined):
+    - At the Defined level, the process becomes a formal, standardized business process.
+    - Processes are documented, established, and consistently implemented according to defined organizational practices. Standard procedures exist and are
+      subject to some degree of improvement over time.
+    - However, a defined process may not yet have been systematically or repeatedly exercised across a wide variety of operational conditions. Users may still
+      be developing sufficient experience and competence, and the process may not yet have been fully validated in diverse situations. Consequently, this level
+      can be viewed as a developmental stage between having a documented process and having a thoroughly proven and measured one.
 
-  - 4 (Quantitatively Managed):       Performance is measured using quantitative data and controlled using those measurements.
-    - The process is quantitatively managed in accordance with agreed-upon metrics.
-    - It is characteristic of processes at this level that, using process metrics, effective achievement of the process objectives can be evidenced across a
-      range of operational conditions.
-    - The suitability of the process in multiple environments has been tested and the process refined and adapted. Process users have experienced the process
-      in multiple and varied conditions, and are able to demonstrate competence.
-    - The process maturity enables adaptions to particular projects without measurable losses of quality or deviations from specifications.
+  - 4 (Quantitatively Managed):
+    - At the Quantitatively Managed level, the process is managed using quantitative measurements and agreed-upon performance metrics.
+    - The organization can use objective data to demonstrate that process objectives are being achieved across a range of operating conditions. Performance is
+      monitored, and the results of measurement are used to control and refine the process.
+    - At this stage, the process has generally been tested in multiple environments and adapted based on experience. Personnel have encountered varied operational
+      conditions and can demonstrate competence in applying the process. The maturity of the process also allows it to be adapted to specific situations without
+      significant loss of quality or deviation from established requirements.
 
-  - 5 (Optimizing):                   The SOC continuously improves its capabilities based on measurement, lessons leared, and changing requirements.
-    - It is a characteristic of processes at this level that the focus is on continually improving process performance through both incremental and innovative technological
-      changes/improvements. 
+  - 5 (Optimizing):
+    - At the Optimizing level, the organization focuses on continuous improvement.
+    - Process performance is continually evaluated and improved using quantitative measurements, lessons learned, operational experience, and changing business or
+      security requirements. Improvements may involve incremental refinements as well as significant or innovative technological and process changes.
+    - The organization does not merely maintain an effective process; it actively looks for ways to make the process more effective, efficient, resilient, and capable
+      over time.
 
 - The SOC maturity is quantified based on 5 domains:
   - Business:            Governance, strategy, organizational alignment, funding, etc.

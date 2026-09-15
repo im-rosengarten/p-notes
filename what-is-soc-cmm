@@ -5,14 +5,44 @@
 - SOC-CMM defines maturity as a way to "characterize SOC performance."
   - This means we can assess how well an organization performs its activities and how consistently and systematically
     it does them.
+
+- SOC-CMM describes maturity following the model called Capability Maturity Model (CMM)
+  - The term "maturity" relates to the degree of formality and optimization of processes, from ad hoc practices, to
+    formally defined steps, to managed result metrics, to active optimization of the processes.
+  - A maturity model can be viewed as a set of structured levels that describe how well the behaviors, practices and
+    processes of an organization can reliably and sustainably produce required outcomes.
   
 - To describe maturity, SOC uses 6 levels:
   - 0 (non-existent):                 The capability essentially does not exist.
+
   - 1 (Initial):                      Activities happen, but they're mostly ad-hoc or dependent on the individual.
-  - 2 (Managed):                      Activities are planned and managed to some extent.
-  - 3 (Defined):                      Processes are documented, standardized, and consistently implemented.
+    - The starting point for use of a new or undocumented repeat process.
+    - Processes in this level are undocumented and are in a state of dynamic change, driven uncontrolled and reactive
+      manner by users or events. 
+    - This provides a chaotic or unstable environment for the processes.
+
+  - 2 (Managed):                      The process is at least documented sufficiently such that repeating the same steps may be attempted.
+    - Activities are planned and managed to some extent.
+    - Process discipline is unlikely to be rigorous, but where it exists it may help to ensure that existing processes are maintained during times of stress.
+    
+  - 3 (Defined):                      Processes are documented, standardized, and consistently implemented, as a standard business process.
+    - The process is defined/confirmed as a standard business process.
+    - It is characteristic of processes at this level that there are sets of defined and documented standard processes established and subject to
+      some degree of improvement over time. 
+    - The processes may not have been systematically or repeatedly used - sufficient for the users to become competent or the process to be validated in a range of situations.
+    - This could be considered a developmental stage - with use in a wider range of conditions and user competence development the process can develop to next level of maturity.
+
   - 4 (Quantitatively Managed):       Performance is measured using quantitative data and controlled using those measurements.
+    - The process is quantitatively managed in accordance with agreed-upon metrics.
+    - It is characteristic of processes at this level that, using process metrics, effective achievement of the process objectives can be evidenced across a
+      range of operational conditions.
+    - The suitability of the process in multiple environments has been tested and the process refined and adapted. Process users have experienced the process
+      in multiple and varied conditions, and are able to demonstrate competence.
+    - The process maturity enables adaptions to particular projects without measurable losses of quality or deviations from specifications.
+
   - 5 (Optimizing):                   The SOC continuously improves its capabilities based on measurement, lessons leared, and changing requirements.
+    - It is a characteristic of processes at this level that the focus is on continually improving process performance through both incremental and innovative technological
+      changes/improvements. 
 
 - The SOC maturity is quantified based on 5 domains:
   - Business:            Governance, strategy, organizational alignment, funding, etc.
